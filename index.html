@@ -1,11 +1,137 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Propriedades Position e Display no CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Propriedades Position e Display no CSS</h1>
+    </header>
+    <main>
+        <div class="titulo">
+            <h2>Display</h2>
+        </div>
+        <div class="blocos">
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Grid</h3>
+                    <p>Permite organizar os elementos em formato de grade (tabela). Possui um método bi-dimensional, que
+                        possibilita a manipulação por colunas e linhas.</p>
+                </div>
+                <div class="grid">
+                    <div>teste1</div>
+                    <div>teste2</div>
+                    <div>teste3</div>
+                    <div>teste4</div>
+                    <div>teste5</div>
+                    <div>teste6</div>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Inline-grid</h3>
+                    <p>Mantém a organização em grade, mas ocupa apenas a largura necessária.</p>
+                </div>
+                <div class="inline-grid">
+                    <div>teste1</div>
+                    <div>teste2</div>
+                    <div>teste3</div>
+                    <div>teste4</div>
+                    <div>teste5</div>
+                    <div>teste6</div>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Flow-root</h3>
+                    <p>Essa função “limpa” problemas de flutuação (floats). Usando à um elemento próximo a um elemento
+                        flutuante, o elemento flutuante não fica sobreposto ao outro.</p>
+                </div>
+                <div class="flow-root">
+                    <div class="exemploroot"></div>
+                    <p>exemplo</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Table</h3>
+                    <p>Similar ao Grid, a table também cria um layout em linhas e colunas, porém, por ser uma função
+                        mais antiga, permite somente dados que já sejam formatados como tabelas.</p>
+                </div>
+                <div class="table">
+                    <div class="linha">
+                        <div class="celula">1</div>
+                        <div class="celula">2</div>
+                    </div>
+                    <div class="linha">
+                        <div class="celula">3</div>
+                        <div class="celula">4</div>
+                    </div>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>block flow</h3>
+                    <p> Tem a mesma função do block (quebras de linha automáticas antes e depois do bloco). Essa
+                        propriedade só deixa mais claro a funcionalidade.</p>
+                </div>
+                <div class="blockflow">
+                    <div>teste1</div>
+                    <div>teste2</div>
+                    <div>teste3</div>
+                    <div>teste4</div>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>block flex</h3>
+                    <p> Junta as propriedades do display: block e display:flex, fazendo com que o elemento possa ficar
+                        na mesma linha de outros elementos e sempre quebre a linha. Como resultado, o elemento ocupará
+                        toda a linha e organizará os filhos como flexbox.</p>
+                </div>
+                <div class="block flex">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>block grid</h3>
+                    <p>
+                        Forma explícita de criar um container de Grid com comportamento block externo. É exatamente
+                        igual ao display: grid tradicional, mas escrito de forma mais específica.
+                    </p>
+                </div>
+                <div class="block g">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>block flow-root</h3>
+                    <p>
+
+                        No display: block flow, com um fluxo comum, pode ocorrer vazamento de float pela altura do
+                        container não ser tão precisa. No display: block flow-root o fluxo é isolado, a altura do
+                        container é a correta e nada vaza.
+
+                    </p>
+                </div>
+                <div class="block flow-r">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
