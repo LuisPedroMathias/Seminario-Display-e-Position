@@ -1,3 +1,4 @@
+.static {
 body {
     margin: 0;
 }
@@ -324,4 +325,21 @@ main {
     position: relative;
     top: 20px;
     left: 10px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
 }
