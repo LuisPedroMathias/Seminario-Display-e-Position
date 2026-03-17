@@ -231,42 +231,86 @@
 
 
 
-
-        <h1>Position</h1>
-        <p>A propriedade Position, do CSS, controla como um elemento é posicionado no documento. Assim, ditando o fluxo
-            do layout, permitindo mover elementos e fixá-los usando suas propriedades.
-        </p>
-
-        <h2>Position: Static</h2>
-        <p>A propriedade Position, do CSS, controla como um elemento é posicionado no documento. Assim, ditando o fluxo
-            do layout, permitindo mover elementos e fixá-los usando suas propriedades.
-        </p>
-        <div class="static">
-            <img src="assets/static.png" alt="Exemplo Static">
+        <div class="titulo">
+            <h1>Position</h1>
+        </div>
+        <div class="blocos">
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Position: Static</h3>
+                    <p>O elemento escolhido não é afetado pelas propriedades top, right, bottom, left, entre outras.
+                        Seguindo o fluxo normal do documento.</p>
+                </div>
+                <div class="static">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
         </div>
 
-        <h2>Position: Relative</h2>
-        <p>O elemento escolhido permanece no fluxo normal, porém pode ser deslocado em relação a sua própria posição
-            original, usando top, left, right, etc. Ainda assim tendo o seu espaço original preservado.
-        </p>
-        <div class="relative">
-            <img src="assets/relative.png" alt="Exemplo Relative">
+        <div class="blocos">
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Position: Relative</h3>
+                    <p>O elemento escolhido permanece no fluxo normal, porém pode ser deslocado em relação a sua própria
+                        posição
+                        original, usando top, left, right, etc. Ainda assim tendo o seu espaço original preservado.</p>
+                </div>
+                <div class="relative">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
         </div>
 
-        <h2>Position: Absolute</h2>
-        <p>O elemento escolhido tem o seu fluxo normal removido, ele se posiciona em relação ao antecessor mais próximo
-            com position diferente de static. Caso não exista o antecessor, será necessário o uso do HTML.
-        </p>
+        <div class="blocos">
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Position: Absolute</h3>
+                    <p>O elemento escolhido tem o seu fluxo normal removido, ele se posiciona em relação ao antecessor
+                        mais próximo
+                        com position diferente de static. Caso não exista o antecessor, será necessário o uso do HTML.
+                    </p>
+                </div>
+                <div class="absolute">
+                    <img src="assets/absolute.png" alt="">
+                </div>
+            </div>
+        </div>
 
-        <h2>Position: Fixed</h2>
-        <p>O elemento escolhido é removido do fluxo normal, logo o elemento se posiciona em relação ao viewport, e não
-            se move ao scrollar.
-        </p>
+        <div class="blocos">
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Position: Fixed</h3>
+                    <p>O elemento escolhido é removido do fluxo normal, logo o elemento se posiciona em relação ao
+                        viewport, e não
+                        se move ao scrollar.
+                    </p>
+                </div>
+                <div>
+                    <img src="assets/fixed.png" alt="">
+                </div>
+            </div>
+        </div>
 
-        <h2>Position: Sticky</h2>
-        <p>O elemento escolhido se comporta como relative até atingir o limite do scroll, então ele muda de estado e
-            fica fixo, como o fixed. Sendo uma propriedade híbrida entre o relative e o fixed.
-        </p>
+        <div class="blocos">
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Position: Sticky</h3>
+                    <p>O elemento escolhido se comporta como relative até atingir o limite do scroll, então ele muda de
+                        estado e
+                        fica fixo, como o fixed. Sendo uma propriedade híbrida entre o relative e o fixed.
+                    </p>
+                </div>
+                <div class="sticky">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+        </div>
 
     </main>
 
