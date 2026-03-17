@@ -1,13 +1,13 @@
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <title>Propriedades Position e Display no CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    
     <header>
         <h1>Propriedades Position e Display no CSS</h1>
     </header>
@@ -18,280 +18,153 @@
         <div class="blocos">
             <div class="bloco">
                 <div class="texto">
-                    <h3>TESTE</h3>
-                    <p></p>
+                    <h3>Display</h3>
+                    <p>
+                        A propriedade Display, no CSS, faz a definição do tratamento do elemento: bloco ou elemento
+                        inline e o layout usado para seus filhos (herança do CSS, onde propriedades de estilo passam de
+                        pai para filho), como layout de fluxo, grid ou flex. De maneira prática, o Display define os
+                        tipos de exibição internos e externos de um elemento.
+                    </p>
                 </div>
-                <div class="grid">
+                <div class="display">
                     <p>Teste1</p>
                     <p>Teste2</p>
                     <p>Teste3</p>
                 </div>
             </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Block</h3>
+                    <p> Esta propriedade fará com que seja gerada uma caixa de elemento de bloco, gerando quebras de
+                        linha automáticas antes e depois do bloco (em fluxo normal). Basicamente, os elementos ocupam
+                        toda a largura disponível e iniciam uma linha nova.</p>
+                </div>
+                <div class="block">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Inline</h3>
+                    <p> Ao contrário do block, o inline gera uma ou mais caixas de elemento em linha, sem nenhum tipo de
+                        quebra de linha. Sempre que houver espaço, o próximo elemento estará na mesma linha que os
+                        outros ( em fluxo normal). Em resumo, elementos ocupam a largura necessária e não iniciam em uma
+                        nova linha</p>
+                </div>
+                <div class="inline">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Inline-block</h3>
+                    <p> Gera uma caixa de elemento de bloco que fluirá com o conteúdo ao redor, como se fosse uma caixa
+                        única em linha. Tal valor é equivalente ao valor “inline flow-root. Conclui-se que assim os
+                        elementos ocupam a largura necessária enquanto é permitido que se manipule largura e altura: ou
+                        seja, uma junção de inline e block.</p>
+                </div>
+                <div class="inline-b">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Flex</h3>
+                    <p> Este comando faz com que o elemento se comporte como bloco e se comporte de acordo com as normas
+                        do modelo flexbox: nele, os filhos de um container flex podem ser dispostos em qualquer posição,
+                        trazendo a possibilidade de manipulação vertical e horizontal.</p>
+                </div>
+                <div class="flex">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>Inline-flex</h3>
+                    <p> O elemento se comporta como elemento inline, entretanto, segue as normas do modelo flexbox
+                        apresentadas na Seção 2.1.4.</p>
+                </div>
+                <div class="inline-f">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+
+          
+            <div class="bloco">
+                <div class="texto">
+                    <h3>inline flow</h3>
+                    <p>
+
+                        No display: block flow, com um fluxo comum, pode ocorrer vazamento de float pela altura do
+                        container não ser tão precisa. No display: block flow-root o fluxo é isolado, a altura do
+                        container é a correta e nada vaza.
+
+                    </p>
+                </div>
+                <div class="inline f">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>inline flex</h3>s
+                    <p>
+                        Elemento feito inline, onde os filhos são organizados em flexbox.
+
+                    </p>
+                </div>
+                <div class="inline flex">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>inline grid</h3>
+                    <p>
+                        Elemento inline, filhos organizados em grid.
+
+                    </p>
+                </div>
+                <div class="inline grid">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+            <div class="bloco">
+                <div class="texto">
+                    <h3>inline flow-root</h3>
+                    <p>
+                        O elemento se comporta da mesma maneira que na propriedade inline-block, onde filhos em fluxo
+                        normal agem com BFC isolado, por conta disto ele aceita a edição de width e height.
+
+                    </p>
+                </div>
+                <div class="inline flow-r">
+                    <p>Teste1</p>
+                    <p>Teste2</p>
+                    <p>Teste3</p>
+                </div>
+            </div>
+
+
+
         </div>
     </main>
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <h1>Position</h1>
-        <p>A propriedade Position, do CSS, controla como um elemento é posicionado no documento. Assim, ditando o fluxo
-            do layout, permitindo mover elementos e fixá-los usando suas propriedades.
-        </p>
-
-        <h2>Position: Static</h2>
-        <p>A propriedade Position, do CSS, controla como um elemento é posicionado no documento. Assim, ditando o fluxo
-            do layout, permitindo mover elementos e fixá-los usando suas propriedades.
-        </p>
-        <div class="static">
-            <img src="assets/static.png" alt="Exemplo Static">
-        </div>
-
-        <h2>Position: Relative</h2>
-        <p>O elemento escolhido permanece no fluxo normal, porém pode ser deslocado em relação a sua própria posição
-            original, usando top, left, right, etc. Ainda assim tendo o seu espaço original preservado.
-        </p>
-        <div class="relative">
-            <img src="assets/relative.png" alt="Exemplo Relative">
-        </div>
-
-        <h2>Position: Absolute</h2>
-        <p>O elemento escolhido tem o seu fluxo normal removido, ele se posiciona em relação ao antecessor mais próximo
-            com position diferente de static. Caso não exista o antecessor, será necessário o uso do HTML.
-        </p>
-
-        <h2>Position: Fixed</h2>
-        <p>O elemento escolhido é removido do fluxo normal, logo o elemento se posiciona em relação ao viewport, e não
-            se move ao scrollar.
-        </p>
-
-        <h2>Position: Sticky</h2>
-        <p>O elemento escolhido se comporta como relative até atingir o limite do scroll, então ele muda de estado e
-            fica fixo, como o fixed. Sendo uma propriedade híbrida entre o relative e o fixed.
-        </p>
-
-    </main>
-
-    <footer>
-
-    </footer>
-
 </body>
 
 </html>

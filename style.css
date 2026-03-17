@@ -1,3 +1,104 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: antiquewhite;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    margin: 15px;
+}
+
+.titulo {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.blocos {
+    display: flex;
+    margin: 15px;
+    gap: 15px;
+    flex-wrap: wrap
+}
+
+.bloco {
+    background-color: antiquewhite;
+    border-radius: 25px;
+    display: flex;
+    padding: 15px;
+}
+
+.texto {
+    width: 300px;
+    padding-right: 20px;
+}
+
+.grid {
+    width: 300px;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10px 10px;
+    gap: 10px;
+}
+
+.inline-grid {
+    width: 300px;
+    border: 5px solid black;
+    display: inline-grid;
+    grid-template-columns: 100px 100px;
+    gap: 10px;
+}
+
+.flow-root {
+    display: flow-root;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.exemploroot {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    margin-right: 10px;
+}
+
+.table {
+    display: table;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.linha {
+    display: table-row;
+}
+
+.celula {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.blockflow {
+    display: block flow;
+    border: 2px solid black;
+    padding: 10px;
 
 
 
